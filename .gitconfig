@@ -1,7 +1,7 @@
 [user]
 	signingkey = D422924D2263CAD8
 	name = Henrique Delazeri
-	email = personal@hdelazeri.dev
+	email = hdelazeri@hdelazeri.dev
 [commit]
 	gpgsign = true
 [tag]
