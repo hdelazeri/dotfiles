@@ -9,10 +9,10 @@ fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src
 
 source $ZSH/oh-my-zsh.sh
 
-eval "$(starship init zsh)"
-
 if [ -d "$HOME/.local/profile" ] ; then
   for f in "$HOME/.local/profile/"*; do
     source "$f"
   done
 fi
+
+eval "$(starship init zsh)"
