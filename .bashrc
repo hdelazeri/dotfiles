@@ -5,7 +5,7 @@ eval "$(starship init bash)"
 
 # Load user profile
 if [ -d "$HOME/.local/profile" ] ; then
-  for f in "$HOME/.local/profile/"*; do
+  for f in "$HOME/.local/profile/"*.sh; do
     source "$f"
   done
 fi

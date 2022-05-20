@@ -10,7 +10,7 @@ fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src
 source $ZSH/oh-my-zsh.sh
 
 if [ -d "$HOME/.local/profile" ] ; then
-  for f in "$HOME/.local/profile/"*; do
+  for f in "$HOME/.local/profile/"*.sh; do
     source "$f"
   done
 fi
