@@ -10,3 +10,5 @@
 	defaultBranch = main
 [core]
 	editor = nvim
+[alias]
+	adog = log --all --decorate --oneline --graph
