@@ -1,0 +1,16 @@
+[user]
+	signingkey = F005144A4B89FFC0
+	name = Henrique Delazeri
+	email = hdelazeri@hdelazeri.dev
+[commit]
+	gpgsign = true
+[tag]
+	gpgsign = true
+[init]
+	defaultBranch = main
+[core]
+	editor = nvim
+[alias]
+	adog = log --all --decorate --oneline --graph
+[push]
+	autoSetupRemote = true
